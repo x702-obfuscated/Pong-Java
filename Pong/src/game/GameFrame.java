@@ -6,7 +6,7 @@ import javax.swing.*;
 @SuppressWarnings("serial")
 public class GameFrame extends JFrame {
 	
-	GamePanel panel = new GamePanel();
+	GamePanel panel;
 	
 	GameFrame(){
 		panel = new GamePanel();
